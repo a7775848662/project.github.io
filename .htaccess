@@ -1,0 +1,5 @@
+ErrorDocument 400 http://movietime.ml
+ErrorDocument 401 http://movietime.ml
+ErrorDocument 403 http://movietime.ml
+ErrorDocument 404 http://movietime.ml
+ErrorDocument 503 http://movietime.ml

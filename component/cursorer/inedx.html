@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="dist/style.css">
+<style>
+    .box {
+        font-family: Arial, Helvetica, sans-serif;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to bottom right, #2193b0, #6dd5ed);
+        border: 3px solid #FFF;
+        border-radius: 8px;
+        color: #FFF;
+        font-size: 26px;
+    }
+</style>
+
+
+
+<div class="container">
+
+    <!-- MULTIPLE ITEMS -->
+
+    <div class="carousel-multiple-items">
+        <div>
+            <div class="box">1</div>
+        </div>
+        <div>
+            <div class="box">2</div>
+        </div>
+        <div>
+            <div class="box">3</div>
+        </div>
+        <div>
+            <div class="box">4</div>
+        </div>
+        <div>
+            <div class="box">5</div>
+        </div>
+        <div>
+            <div class="box">6</div>
+        </div>
+        <div>
+            <div class="box">7</div>
+        </div>
+    </div>
+</div>
+
+<script src="dist/index.min.js"></script>
+<script>
+    new ElderCarousel('.carousel-multiple-items', {
+        items: 6
+    })
+</script>
